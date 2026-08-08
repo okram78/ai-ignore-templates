@@ -1,0 +1,15 @@
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+vendor/bundle/
+.bundle/
+tmp/
+log/
+coverage/
+*.env
+*.log
+*.pem
+*.key
+*.crt

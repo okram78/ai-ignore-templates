@@ -1,0 +1,12 @@
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+target/
+*.rs.bk
+*.env
+*.log
+*.pem
+*.key
+*.crt

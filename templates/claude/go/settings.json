@@ -1,0 +1,1 @@
+{"$schema":"https://json.schemastore.org/claude-code-settings.json","permissions":{"deny":["Read(./vendor/**)","Read(./bin/**)","Read(./**/*.test)","Read(./**/*.env)","Read(./**/*.log)","Read(./**/*.pem)","Read(./**/*.key)","Read(./**/*.crt)"]}}

@@ -1,0 +1,14 @@
+default_permissions = "{{PROJECT_PROFILE}}"
+
+[permissions.{{PROJECT_PROFILE}}]
+extends = ":workspace"
+
+[permissions.{{PROJECT_PROFILE}}.filesystem.":workspace_roots"]
+"vendor/**" = "deny"
+"storage/logs/**" = "deny"
+"bootstrap/cache/**" = "deny"
+"**/*.env" = "deny"
+"**/*.log" = "deny"
+"**/*.pem" = "deny"
+"**/*.key" = "deny"
+"**/*.crt" = "deny"

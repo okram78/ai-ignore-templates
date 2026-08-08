@@ -1,0 +1,14 @@
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+bin/
+vendor/
+coverage/
+*.test
+*.env
+*.log
+*.pem
+*.key
+*.crt

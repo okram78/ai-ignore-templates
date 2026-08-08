@@ -9,7 +9,11 @@
       "templates": {
         "javascript": "templates/opencode/javascript/.ignore",
         "java": "templates/opencode/java/.ignore",
-        "python": "templates/opencode/python/.ignore"
+        "python": "templates/opencode/python/.ignore",
+        "go": "templates/opencode/go/.ignore",
+        "rust": "templates/opencode/rust/.ignore",
+        "ruby": "templates/opencode/ruby/.ignore",
+        "php": "templates/opencode/php/.ignore"
       }
     },
     {
@@ -20,7 +24,11 @@
       "templates": {
         "javascript": "templates/codex/javascript/config.toml",
         "java": "templates/codex/java/config.toml",
-        "python": "templates/codex/python/config.toml"
+        "python": "templates/codex/python/config.toml",
+        "go": "templates/codex/go/config.toml",
+        "rust": "templates/codex/rust/config.toml",
+        "ruby": "templates/codex/ruby/config.toml",
+        "php": "templates/codex/php/config.toml"
       }
     },
     {
@@ -32,7 +40,11 @@
       "templates": {
         "javascript": "templates/claude/javascript/settings.json",
         "java": "templates/claude/java/settings.json",
-        "python": "templates/claude/python/settings.json"
+        "python": "templates/claude/python/settings.json",
+        "go": "templates/claude/go/settings.json",
+        "rust": "templates/claude/rust/settings.json",
+        "ruby": "templates/claude/ruby/settings.json",
+        "php": "templates/claude/php/settings.json"
       }
     },
     {
@@ -43,13 +55,21 @@
       "templates": {
         "javascript": "templates/pi/javascript/AGENTS.md",
         "java": "templates/pi/java/AGENTS.md",
-        "python": "templates/pi/python/AGENTS.md"
+        "python": "templates/pi/python/AGENTS.md",
+        "go": "templates/pi/go/AGENTS.md",
+        "rust": "templates/pi/rust/AGENTS.md",
+        "ruby": "templates/pi/ruby/AGENTS.md",
+        "php": "templates/pi/php/AGENTS.md"
       }
     }
   ],
   "projects": [
     { "id": "javascript", "name": "JavaScript / TypeScript" },
     { "id": "java", "name": "Java" },
-    { "id": "python", "name": "Python" }
+    { "id": "python", "name": "Python" },
+    { "id": "go", "name": "Go" },
+    { "id": "rust", "name": "Rust" },
+    { "id": "ruby", "name": "Ruby" },
+    { "id": "php", "name": "PHP" }
   ]
 }

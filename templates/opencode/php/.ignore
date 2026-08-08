@@ -1,0 +1,13 @@
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+vendor/
+storage/logs/
+bootstrap/cache/
+*.env
+*.log
+*.pem
+*.key
+*.crt
