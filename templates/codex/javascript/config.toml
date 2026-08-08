@@ -1,0 +1,18 @@
+default_permissions = "{{PROJECT_PROFILE}}"
+
+[permissions.{{PROJECT_PROFILE}}]
+extends = ":workspace"
+
+[permissions.{{PROJECT_PROFILE}}.filesystem.":workspace_roots"]
+"node_modules/**" = "deny"
+"dist/**" = "deny"
+"build/**" = "deny"
+"coverage/**" = "deny"
+".cache/**" = "deny"
+".vite/**" = "deny"
+"**/*.env" = "deny"
+"**/*.env.*" = "deny"
+"**/*.pem" = "deny"
+"**/*.key" = "deny"
+"**/*.crt" = "deny"
+"**/*.log" = "deny"

@@ -1,0 +1,22 @@
+default_permissions = "{{PROJECT_PROFILE}}"
+
+[permissions.{{PROJECT_PROFILE}}]
+extends = ":workspace"
+
+[permissions.{{PROJECT_PROFILE}}.filesystem.":workspace_roots"]
+".venv/**" = "deny"
+"venv/**" = "deny"
+"env/**" = "deny"
+"__pycache__/**" = "deny"
+"**/*.py[cod]" = "deny"
+".pytest_cache/**" = "deny"
+".mypy_cache/**" = "deny"
+"dist/**" = "deny"
+"build/**" = "deny"
+"*.egg-info/**" = "deny"
+"**/*.env" = "deny"
+"**/*.env.*" = "deny"
+"**/*.pem" = "deny"
+"**/*.key" = "deny"
+"**/*.crt" = "deny"
+"**/*.log" = "deny"

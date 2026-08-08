@@ -1,0 +1,31 @@
+# Version control and editor metadata
+.git/
+.github/
+.vscode/
+.idea/
+.DS_Store
+
+# Virtual environments and generated output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/

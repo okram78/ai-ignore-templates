@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(./target/**)",
+      "Read(./build/**)",
+      "Read(./out/**)",
+      "Read(./**/*.class)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/*.pem)",
+      "Read(./**/*.key)",
+      "Read(./**/*.crt)",
+      "Read(./**/*.log)"
+    ]
+  }
+}
