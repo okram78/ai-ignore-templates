@@ -34,6 +34,17 @@
         "java": "templates/claude/java/settings.json",
         "python": "templates/claude/python/settings.json"
       }
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "filename": "AGENTS.md",
+      "description": "Project context instructions for Pi",
+      "templates": {
+        "javascript": "templates/pi/javascript/AGENTS.md",
+        "java": "templates/pi/java/AGENTS.md",
+        "python": "templates/pi/python/AGENTS.md"
+      }
     }
   ],
   "projects": [

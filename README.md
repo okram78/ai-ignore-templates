@@ -11,3 +11,5 @@ Codex templates generate a project-named permission profile for `~/.codex/config
 The profile name is replaced by okram.dev when the template is generated.
 
 Claude Code templates generate `.claude/settings.json` with project-level `permissions.deny` rules.
+
+Pi templates generate `AGENTS.md` project instructions. Pi loads `AGENTS.md` from the project directory and uses it as context guidance.
